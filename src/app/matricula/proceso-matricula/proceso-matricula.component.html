@@ -1,0 +1,27 @@
+<!-- matricula/proceso-matricula.component.html -->
+
+<div class="mt-4">
+    <h2 class="text-primary">Proceso de Matrícula</h2>
+
+    <div class="card">
+        <div class="card-body">
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre del estudiante:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="curso" class="form-label">Selecciona un curso:</label>
+                    <select id="curso" name="curso" class="form-select">
+                        <option value="1">Programación Web</option>
+                        <option value="2">Base de Datos</option>
+                        <!-- Agrega más opciones si es necesario -->
+                    </select>
+                </div>
+
+                <button type="submit" class="btn btn-success">Matricular</button>
+            </form>
+        </div>
+    </div>
+</div>

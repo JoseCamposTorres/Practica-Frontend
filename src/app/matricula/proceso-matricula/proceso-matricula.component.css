@@ -1,0 +1,10 @@
+/* Agrega estilos según sea necesario */
+form {
+  max-width: 300px;
+  margin: auto;
+}
+
+label, input, select {
+  display: block;
+  margin-bottom: 10px;
+}
